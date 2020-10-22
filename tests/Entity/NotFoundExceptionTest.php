@@ -11,7 +11,8 @@ use PHPUnit\Framework\TestCase;
  *
  * @package Tests\Entity
  *
- * @covers  \Jalismrs\ExceptionBundle\Entity\NotFoundException
+ * @covers \Jalismrs\ExceptionBundle\Entity\NotFoundException
+ * @uses   \Jalismrs\ExceptionBundle\AppException
  */
 final class NotFoundExceptionTest extends
     TestCase

@@ -2,13 +2,13 @@ services:
     _defaults:
         public: false
     
-    api_throttler.api_throttler:
-        class: 'Jalismrs\ApiThrottlerBundle\ApiThrottler'
+    exception.exception:
+        class: 'Jalismrs\ExceptionBundle\Exception'
         arguments:
             $rateLimitProvider: '@Maba\GentleForce\RateLimitProvider'
             $throttler: '@Maba\GentleForce\ThrottlerInterface'
     
-    Jalismrs\ApiThrottlerBundle\ApiThrottler: '@api_throttler.api_throttler'
+    Jalismrs\ExceptionBundle\Exception: '@exception.exception'
     
     # maba/gentle-force
     Maba\GentleForce\RateLimitProvider:

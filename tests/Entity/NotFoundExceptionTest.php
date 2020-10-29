@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Tests\Entity;
 
-use Jalismrs\ExceptionBundle\Entity\NotFoundException;
+use Jalismrs\Exceptions\Entity\NotFoundException;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -11,8 +11,8 @@ use PHPUnit\Framework\TestCase;
  *
  * @package Tests\Entity
  *
- * @covers \Jalismrs\ExceptionBundle\Entity\NotFoundException
- * @uses   \Jalismrs\ExceptionBundle\AppException
+ * @covers \Jalismrs\Exceptions\Entity\NotFoundException
+ * @uses   \Jalismrs\Exceptions\AppException
  */
 final class NotFoundExceptionTest extends
     TestCase

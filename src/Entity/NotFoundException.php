@@ -1,16 +1,16 @@
 <?php
 declare(strict_types = 1);
 
-namespace Jalismrs\ExceptionBundle\Entity;
+namespace Jalismrs\Exceptions\Entity;
 
-use Jalismrs\ExceptionBundle\EntityException;
+use Jalismrs\Exceptions\EntityException;
 use Throwable;
 use function vsprintf;
 
 /**
  * Class NotFoundException
  *
- * @package Jalismrs\ExceptionBundle
+ * @package Jalismrs\Exceptions
  */
 final class NotFoundException extends
     EntityException

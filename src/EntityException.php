@@ -1,12 +1,12 @@
 <?php
 declare(strict_types = 1);
 
-namespace Jalismrs\ExceptionBundle;
+namespace Jalismrs\Exceptions;
 
 /**
  * EntityException
  *
- * @package Jalismrs\ExceptionBundle
+ * @package Jalismrs\Exceptions
  */
 class EntityException extends
     AppException

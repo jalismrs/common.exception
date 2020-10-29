@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Jalismrs\ExceptionBundle;
+namespace Jalismrs\Exceptions;
 
 use RuntimeException;
 use Throwable;
@@ -10,11 +10,10 @@ use function is_numeric;
 /**
  * Class AppException
  *
- * @package Jalismrs\ExceptionBundle
+ * @package Jalismrs\Exceptions
  */
 class AppException extends
-    RuntimeException implements
-    ExceptionInterface
+    RuntimeException
 {
     /**
      * AppException constructor.

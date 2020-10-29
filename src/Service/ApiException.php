@@ -1,14 +1,14 @@
 <?php
 declare(strict_types = 1);
 
-namespace Jalismrs\ExceptionBundle\Service;
+namespace Jalismrs\Exceptions\Service;
 
-use Jalismrs\ExceptionBundle\ServiceException;
+use Jalismrs\Exceptions\ServiceException;
 
 /**
  * Class ApiException
  *
- * @package Jalismrs\ExceptionBundle\Service
+ * @package Jalismrs\Exceptions\Service
  */
 class ApiException extends
     ServiceException

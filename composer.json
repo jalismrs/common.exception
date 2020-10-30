@@ -21,7 +21,6 @@
   },
   "description" : "Adds Exception classes",
   "license": "MIT",
-  "minimum-stability": "dev",
   "name" : "jalismrs/common.exception",
   "require-dev" : {
     "composer/package-versions-deprecated" : "*",

@@ -1,6 +1,6 @@
-# Symfony Bundle Exception
+# common.exception
 
-Adds several Exception classes
+Adds Exception classes
 * `AppException`
 * `EntityException`
 * `Entity\NotFoundException`
@@ -8,22 +8,22 @@ Adds several Exception classes
 * `Service\ApiException`
 
 NOTES
-* namespace is `Jalismrs\Exceptions`
+* namespace is `Jalismrs\Common\Exception`
 * `Entity\NotFoundException`: `$code` is always 404
 
 ## Test
 
-`phpunit` OU `vendor/bin/phpunit`
+`phpunit` or `vendor/bin/phpunit`
 
 coverage reports will be available in `var/coverage`
 
 ## Use
 
 ```php
-use Jalismrs\Exceptions\Entity\NotFoundException;
+use Jalismrs\Common\Exception\Entity\NotFoundException;
 
 throw NotFoundException::create(
-    SomeEntity::class,
+    SomeClass::class,
     'some identifier'
 );
 ```

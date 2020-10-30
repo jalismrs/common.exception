@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Tests;
 
-use Jalismrs\Exceptions\AppException;
+use Jalismrs\Common\Exception\AppException;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @package Tests
  *
- * @covers  \Jalismrs\Exceptions\AppException
+ * @covers  \Jalismrs\Common\Exception\AppException
  */
 final class AppExceptionTest extends
     TestCase

@@ -8,7 +8,7 @@
   ],
   "autoload" : {
     "psr-4" : {
-      "Jalismrs\\Exceptions\\" : "src"
+      "Jalismrs\\Common\\Exception\\" : "src"
     }
   },
   "autoload-dev" : {
@@ -19,10 +19,9 @@
   "config" : {
     "sort-packages" : true
   },
-  "description" : "Adds several Exception classes",
+  "description" : "Adds Exception classes",
   "license": "MIT",
-  "minimum-stability": "dev",
-  "name" : "jalismrs/exceptions.common",
+  "name" : "jalismrs/common.exception",
   "require-dev" : {
     "composer/package-versions-deprecated" : "*",
     "phpunit/phpunit" : "9.4.2",
@@ -33,10 +32,10 @@
   },
   "support" : {
     "email" : "dev@jalis.fr",
-    "issues" : "https://github.com/jalismrs/exceptions.common/issues",
-    "wiki" : "https://github.com/jalismrs/exceptions.common/wiki",
-    "source" : "https://github.com/jalismrs/exceptions.common",
-    "docs" : "https://github.com/jalismrs/exceptions.common"
+    "issues" : "https://github.com/jalismrs/common.exception/issues",
+    "wiki" : "https://github.com/jalismrs/common.exception/wiki",
+    "source" : "https://github.com/jalismrs/common.exception",
+    "docs" : "https://github.com/jalismrs/common.exception"
   },
   "type" : "symfony-bundle"
 }

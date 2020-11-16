@@ -8,12 +8,12 @@
   ],
   "autoload" : {
     "psr-4" : {
-      "Jalismrs\\Common\\Exception\\" : "src"
+      "Jalismrs\\Common\\Exception\\" : "src/"
     }
   },
   "autoload-dev" : {
     "psr-4" : {
-      "Tests\\" : "tests"
+      "Tests\\" : "tests/"
     }
   },
   "config" : {
@@ -36,6 +36,5 @@
     "wiki" : "https://github.com/jalismrs/common.exception/wiki",
     "source" : "https://github.com/jalismrs/common.exception",
     "docs" : "https://github.com/jalismrs/common.exception"
-  },
-  "type" : "symfony-bundle"
+  }
 }

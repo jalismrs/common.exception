@@ -8,7 +8,6 @@ Adds Exception classes
 * `Service\ApiException`
 
 NOTES
-* namespace is `Jalismrs\Common\Exception`
 * `Entity\NotFoundException`: `$code` is always 404
 
 ## Test
@@ -19,6 +18,7 @@ coverage reports will be available in `var/coverage`
 
 ## Use
 
+### Entity\NotFoundException
 ```php
 use Jalismrs\Common\Exception\Entity\NotFoundException;
 
